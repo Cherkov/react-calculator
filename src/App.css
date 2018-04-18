@@ -1,0 +1,65 @@
+#root{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.App {
+  text-align: center;
+  width: 200px;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+}
+.Display{
+  height: 50px;
+  background-color: #403235;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-align: right;
+}
+.Display span{
+  width: 100%;
+  display: block;
+  margin-right: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+.NumbersActions{
+  height: 100%;
+  display: flex;
+}
+.NumbersActions button{
+  display: block;
+  font-size: 20px;
+  display: block;
+  border: 1px solid black;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.equal{
+  background-color: #171663 !important;
+  color: #fff;
+}
+.digitsContainer{
+  width: 75%;
+  display: flex;
+  flex-flow: column;
+}
+.digitsContainer .row{
+  display: flex;
+  flex-flow: row;
+}
+.actionsContainer{
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+}
+.actionsContainer button{
+  color: #fff;
+  background-color: #eb495c;
+}
